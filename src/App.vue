@@ -1,15 +1,15 @@
+<!--
+ * @Author: 陆伟
+ * @Date: 2021-02-05 15:40:44
+ * @LastEditTime: 2021-02-05 16:08:49
+ * @LastEditors: 陆伟
+ * @Description: 
+-->
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Hello Vue 3.0 + Vite" />
+  <router-view />
 </template>
-
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
 export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
+  name: 'App'
 }
 </script>
