@@ -9,7 +9,7 @@
 安装依赖
 ```
   yarn add vue-router@next
-  yarn add element-plus
+  yarn add ant-design-vue@next
   yarn add less less-loader --dev
 ```
 
@@ -39,13 +39,13 @@ import App from './App.vue'
 import './index.css'
 
 import router from './router'
-import ElementPlus from 'element-plus';
-import 'element-plus/lib/theme-chalk/index.css';
+import Antd from 'ant-design-vue';
+import 'ant-design-vue/dist/antd.css';
 
 const app = createApp(App)
 
 app.use(router)
-app.use(ElementPlus)
+app.use(Antd);
 
 app.mount('#app')
 ```
@@ -65,7 +65,7 @@ export default {
 新增views/Home.vue文件
 ```
 <template>
-  <el-button type="primary" @click="toDetail">去详情</el-button>
+  <a-button type="primary" @click="toDetail">去详情</a-button>
 </template>
 
 <script>
@@ -85,7 +85,7 @@ export default {
 新增views/Detail.vue文件
 ```
 <template>
-  <el-button type="primary" @click="toHome">去首页</el-button>
+  <a-button type="primary" @click="toHome">去首页</a-button>
 </template>
 
 <script>

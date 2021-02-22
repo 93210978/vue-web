@@ -1,12 +1,13 @@
 <!--
  * @Author: 陆伟
  * @Date: 2021-02-05 16:09:35
- * @LastEditTime: 2021-02-05 16:09:35
+ * @LastEditTime: 2021-02-22 14:14:55
  * @LastEditors: 陆伟
  * @Description: 
 -->
 <template>
-  <el-button type="primary" @click="toHome">去首页</el-button>
+  <a-button type="primary" @click="toHome">去首页</a-button>
+  
 </template>
 
 <script>

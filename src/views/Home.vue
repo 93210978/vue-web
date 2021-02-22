@@ -1,12 +1,12 @@
 <!--
  * @Author: 陆伟
  * @Date: 2021-02-05 16:09:16
- * @LastEditTime: 2021-02-05 16:12:40
+ * @LastEditTime: 2021-02-22 14:15:32
  * @LastEditors: 陆伟
  * @Description: 
 -->
 <template>
-  <el-button type="primary" @click="toDetail">去详情</el-button>
+  <a-button type="primary" @click="toDetail">去详情</a-button>
 </template>
 
 <script>
